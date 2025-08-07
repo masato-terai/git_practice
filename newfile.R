@@ -10,3 +10,9 @@ iris %>%
   summarize(m = mean(Sepal.Length)) %>%
   print()
 
+# How to summrize
+iris %>%
+  group_by(Species) %>%
+  summarize(m = mean(Sepal.Length)) %>%
+  print()
+
