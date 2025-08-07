@@ -2,7 +2,6 @@
 
 library(tidyverse)
 
-tidyverse_logo()
 
 # How to summrize
 iris %>%
